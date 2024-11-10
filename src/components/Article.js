@@ -14,7 +14,7 @@ const Article = ({title,date="January 1, 1970",preview,minutes}) => {
             {/* pass a props of title */}
             <h3>{title}</h3>
             {/* pass a props of date */}
-            <small>{date},{readTimeDisplay}</small>
+            <small>{date}.{readTimeDisplay}</small>
             {/* pass a props of preview */}
             <p>{preview}</p>
         </article>
